@@ -6,6 +6,10 @@ spring:
       charset: UTF-8
       enabled: true
       force: true
+      
+  cloud:
+   config:
+     override-none: true
     
 server:  port: 3001
   
