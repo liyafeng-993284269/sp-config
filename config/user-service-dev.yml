@@ -15,3 +15,9 @@ server:
 
 eureka:  client:    service-url:
     #自己的只能写defaultZone 云服务商使用提供的地址      defaultZone: http://eureka1:2001/eureka,http://eureka:2002/eureka
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
